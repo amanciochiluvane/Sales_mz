@@ -11,6 +11,7 @@
   display:flex;
   justify-content: space-between; 
   height: 100px;
+  border-bottom:1px solid #BD8E48;
 }
 .menutools{
   display:none;
@@ -23,10 +24,10 @@ h1{
 
 }
 .sales{
-color: #BDB1A6;
+color: rgb(234, 234, 234);
 }
 .mz{
-  color: #BD8E48;
+  color:  #b58339;
 }
 .mbi{
   margin-top: 36.75px;
@@ -34,12 +35,18 @@ color: #BDB1A6;
   margin-right: 35px;
 }
 .main{
-  background-color:white ;
+  background-color:rgb(234, 234, 234) ;
   height:100vh;
 }
 h2{
+  color: rgb(0, 0, 0);
   padding: 30px;
   font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 40px;
+}
+h2>p{
+  color: #b58339;
+  text-shadow: 1px 1px 1px black;
 }
 
 
@@ -50,15 +57,26 @@ section>div{
   text-align: center;
 
 }
+#root > div > div.main > section > div > button.slick-arrow.slick-prev{
+}
+
 .slick-slide div{
   margin: 0 0.5rem;
 }
+section{
+  margin-top: 20px;
+  background-color: rgba(23, 22, 22, 0.624);
+  height: 300px;
+  padding: 30px;
+}
 
 #card {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.905);
   height: 300px;
   border-radius: 20px;
   font-family: 'Berlin Sans FB Demi', sans-serif;
+  margin: auto;
+  box-shadow: 3px 3px 3px #2c2823;
 
   
 }
@@ -88,16 +106,16 @@ section>div{
   display: flex;
   height: max-content;
   margin-top: 39.75px;
-  gap: 30px;
+  gap: 10px;
   justify-self: flex-end;
   margin-right: 25px;
 
 }
 .menutools>p{
-background-color: #BD8E48;
 padding: 5px;
 border-radius: 5px;
-color: black;
+color: white;
+font-size: 18px;
 text-shadow: 0.5px 0.5px 0.5px #8b7b6c;
 font-family: 'Berlin Sans FB Demi', sans-serif;
 }
@@ -106,6 +124,7 @@ font-family: 'Berlin Sans FB Demi', sans-serif;
 cursor: pointer;
 transform: translate(0,-50%);
 transition-duration: 1s;
+color: #b58339;
 
 }
 h1{
@@ -117,13 +136,14 @@ margin-left: 15px;
   
 }
 .main>h2{
-  font-size: xx-large;
+  font-size:46px
 }
 section>div{
   width: 400px;
   margin: auto;
   height: 300px;
   text-align: center;
+
 
 }
 
@@ -144,20 +164,11 @@ h1{
   margin-right: 25vw;
   font-size: 300%;
 }
+section>div{
+  width: 600px;
 }
-@media (min-width:1053px) {
-  section>div{
-    width: 500px;
-    margin: auto;
-    height: 300px;
-    text-align: center;
-  
-  }
-  .slick-slide div{
-    margin: 0 0.5rem;
-  }
-  
 }
+
 @media (min-width:1200px) {
   .menutools>p{
     margin-top: 40px;

@@ -29,13 +29,13 @@ function main(){
           {
             breakpoint: 1200,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 1
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 769,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
@@ -46,7 +46,7 @@ function main(){
     return(
         <div className="main">
             <h2>
-            Olá! <br></br>
+            <p>Olá!</p> 
                 Em que podemos ajudar?
             </h2>
 
