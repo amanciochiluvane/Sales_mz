@@ -1,10 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap');
 
 *{
   margin: 0;
   padding: 0;
+  
 }
 .header{
   background-color: black;
@@ -12,6 +13,7 @@
   justify-content: space-between; 
   height: 100px;
   border-bottom:1px solid #BD8E48;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
 }
 .menutools{
   display:none;
@@ -37,12 +39,23 @@ color: rgb(234, 234, 234);
 .main{
   background-color:white ;
   height:100vh;
+  font-family: 'Lilita One', cursive;
 }
 h2{
-  color: rgb(0, 0, 0);
+  margin: auto;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
   padding: 30px;
   font-family: 'Berlin Sans FB Demi', sans-serif;
   font-size: 40px;
+  background-color: #000000;
+  width: 250px;
+  border-radius: 10px;
+ 
+
+}
+.ask{
+  height: 250px;
 }
 h2>p{
   color: #b58339;
@@ -64,24 +77,46 @@ section>div{
   margin: 0 0.5rem;
 }
 section{
-  margin-top: 20px;
-  background-color: rgba(23, 22, 22, 0.624);
-  height: 300px;
-  padding: 30px;
+  background-color: #000000;
+  height: 400px;
+  padding-top: 50px;
 }
 
 #card {
-  background-color: rgba(255, 255, 255, 0.905);
+  background-color: rgba(255, 255, 255, 0);
   height: 300px;
   border-radius: 20px;
-  font-family: 'Berlin Sans FB Demi', sans-serif;
   margin: auto;
-  box-shadow: 3px 3px 3px #2c2823;
-
   
 }
 #card:hover{
   border: 1px solid #1b1b1b;
+}
+.Cel{
+  background-image: url(Assets/teste/cell.jpg);
+  background-size: cover;
+}
+.TB{
+  background-image: url(Assets/teste/The_5_Best_MarTech_Articles_You_Need_To_Read.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.TV{
+  background-image: url(Assets/teste/telewizorycurved.jpg);
+  background-size: cover;
+}
+.LAP{
+  background-image: url(Assets/teste/amazonbasics-laptop-stand_wqm6.jpg);
+  background-size: cover;
+}
+.RL{
+  background-image: url(Assets/teste/HTB1S9jBHVXXXXbwXXXXq6xXFXXXF.jpg);
+  background-size: cover;
+}
+.JBL{
+  background-image: url(Assets/JBL.jpg);
+  background-size: cover;
 }
 #card>img{
   margin: auto;
@@ -90,17 +125,26 @@ section{
 }
 #card>h3{
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 245px;
   background-color: black;
   width: max-content;
   padding: 10px;
   border-radius: 5px;
   color:#BD8E48;
+  display: block;
+  bottom: 0;
   
 }
-
-
+.slick-dots li.slick-active button:before{
+  margin-top: 10px;
+  color: #BD8E48 !important;
+  font-size:1rem !important;
+}
+.slick-dots li button:before{
+  margin-top: 10px;
+  color: #b58339 !important;
+  font-size:1rem !important;
+}
 @media (min-width:481px) {
 .menutools{
   display: flex;
@@ -117,7 +161,7 @@ border-radius: 5px;
 color: white;
 font-size: 18px;
 text-shadow: 0.5px 0.5px 0.5px #8b7b6c;
-font-family: 'Berlin Sans FB Demi', sans-serif;
+
 }
 
 .menutools>p:hover{
@@ -130,6 +174,10 @@ color: #b58339;
 h1{
 margin-left: 15px;
 }
+h2{
+  margin-left:5px ;
+  width: 350px;
+}
 
 .mbi{
   display: none;
@@ -138,10 +186,16 @@ margin-left: 15px;
 .main>h2{
   font-size:46px
 }
+#card{
+  height: 400px;
+}
+section{
+  height: 500px;
+}
 section>div{
   width: 400px;
   margin: auto;
-  height: 300px;
+  height: 400px;
   text-align: center;
 
 
@@ -164,8 +218,12 @@ h1{
   margin-right: 25vw;
   font-size: 300%;
 }
+h2{
+  width: 400px;
+  font-size: 46px;
+}
 section>div{
-  width: 600px;
+  width: 700px;
 }
 }
 
@@ -177,10 +235,14 @@ section>div{
     font-size: larger;
     
   }
+  h2{
+    width: 700px;
+    font-size: 58px;
+    margin-top: 45px;
+  }
   section>div{
-    width: 800px;
+    width: 1000px;
     margin: auto;
-    height: 300px;
     text-align: center;
   
   }
