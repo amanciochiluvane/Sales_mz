@@ -1,15 +1,12 @@
-import './App.css'
-import Header from './Components/header'
-import Main from './Components/main'
-function App() {
-
-  return (
-    <div className='app'>
-      <Header/>
-      <Main/>
-    </div>
-   
-  )
-}
+import { Outlet } from "react-router-dom";
+import Header from "./Components/header";
+import Footer from "./Components/footer";
+const App = () => (
+  <div className="App">
+   <Header/>
+   <Outlet/>
+   <Footer/>
+  </div>
+);
 
 export default App

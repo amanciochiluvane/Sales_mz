@@ -1,5 +1,5 @@
 {
-  "homepage":"https://amanciochiluvane.github.io/ Sales_mz",
+  "homepage": "https://amanciochiluvane.github.io/ Sales_mz",
   "name": "salesmz",
   "private": true,
   "version": "0.0.0",
@@ -9,12 +9,13 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   },
@@ -27,6 +28,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "gh-pages": "^5.0.0",
-    "vite": "^4.4.0"
+    "vite": "^4.4.4"
   }
 }

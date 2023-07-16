@@ -6,7 +6,6 @@ function main(){
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -67,6 +66,9 @@ function main(){
                 </div>
 
                 <div id="card" className='LAP'>
+                </div>
+
+                <div id="card" className='Ac'>
                 </div>
                 </Slider>
             </section>
