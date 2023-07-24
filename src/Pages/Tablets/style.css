@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+
+.Tablets>h2{
+    width: max-content;
+    color: #b58339;
+
+}
+#card>h1{
+    text-align: left;
+    margin-top: 350px;
+    color: white;
+}
+    .Tablets>section{
+    height: 600px;
+}
+#espec{
+    margin-top: 10px;
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Price{
+    margin-top: 5px;
+    color:#b58339;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-size: larger;
+
+}
+.Comprar{
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    margin: auto;
+    background-color: white;
+    width: max-content;
+    margin-top: 25px;
+    background-color: #BD8E48;
+    border-radius: 10px;    
+    
+}
+.Comprar:hover{
+    color: #b58339;
+    cursor: pointer;
+}
+.Comprar>a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 20px;
+}
+
+.A7{
+    background-image: url(../../Assets/mobile/TBA7lite.jpg);
+    background-size:cover ;
+}
+.A8{
+    background-image: url(../../Assets/mobile/TBA8inch.jpg);
+    background-size:cover ;
+    background-position: 50%;
+}
+.A81{
+    background-image: url(../../Assets/mobile/TBA810.4inch.jpg);
+    background-size:cover ;
+    background-position: 45%;
+}
+
+@media (min-width:481px) {
+   
+    #card>h1{
+        text-align: left;
+        margin-top: 450px;
+        color: white;
+        }
+    .Tablets>section{
+        height: 700px;
+    }
+}
+
+@media (min-width:769px) {
+    .Tablets>section{
+        height: 800px;
+    }
+}

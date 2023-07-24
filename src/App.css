@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -20,12 +21,22 @@
 }
 .non{
   color: white;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px;
-  background-color: #50493e83;
+  background-color: black;
   border-radius:7px ;
-  height: max-content;
+  height: 100vh;
+  width: 180px;
+  text-align: center;
+}
+.non>p{
+  margin-top: 50px;
+  font-size: larger;
+}
+.close{
+  text-align: right;
+  margin-right: 20px;
+  font-size: x-large;
 }
 .non>p:hover{
 color: #b58339;
@@ -220,6 +231,33 @@ section{
   
  
 }
+.email{
+width: 40px;
+}
+.email:hover{
+  transform: translate(0,-30%);
+  transition-duration: 1s;
+}
+.whatsapp{
+margin-left: 20px;
+width: 40px;
+}
+.whatsapp:hover{
+  transform: translate(0,-30%);
+  transition-duration: 1s;
+}
+.insta{
+  width: 40px;
+  border-radius: 10px;
+}
+.insta:hover{
+  transform: translate(0,-30%);
+  transition-duration: 1s;
+}
+.cont{
+  display: flex;
+  gap:40px;
+}
 .footer>h3>p>h1{
   margin-left: 0px;
   margin-right: 0px;
@@ -236,6 +274,15 @@ section{
   justify-self: flex-end;
   margin-right: 25px;
 
+}
+.ema{
+  width: 60px;
+}
+.non{
+  display: none;
+}
+.close{
+  display: none;
 }
 .menutools>p{
 padding: 5px;

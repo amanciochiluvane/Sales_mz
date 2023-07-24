@@ -54,9 +54,9 @@ function main(){
                
                   <Link to="/Sales_mz/marcascell"> <div id="card" className='Cel'></div></Link>
 
+                  <Link to ="/Sales_mz/tablets"><div id="card" className='TB'>
+                </div></Link>
                 
-                <div id="card" className='TB'>
-                </div>
                 
                 <div id="card" className='TV'>
                 </div>

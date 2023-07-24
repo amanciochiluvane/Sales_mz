@@ -7,12 +7,12 @@
     color: #b58339;
 
 }
-#card>h1{
+.Samsung>#card>h1{
     text-align: left;
     margin-top: 350px;
     color: white;
     }
-section{
+    .Samsung>section{
     height: 600px;
 }
 #espec{
@@ -42,7 +42,7 @@ section{
     color: #b58339;
     cursor: pointer;
 }
-a{
+.Comprar>a{
     text-decoration: none;
     color: black;
     font-size: larger;
@@ -167,13 +167,13 @@ a{
         margin-top: 450px;
         color: white;
         }
-    section{
+    .Samsung>section{
         height: 700px;
     }
 }
 
 @media (min-width:769px) {
-    section{
+    .Samsung>section{
         height: 800px;
     }
 }

@@ -1,4 +1,6 @@
-
+import email from '../../Assets/mobile/ei.png';
+import insta from '../../Assets/mobile/logo-instagram.jpg';
+import sapp from '../../Assets/mobile/logo-whatsapp.png';
 
 
 export default function footer(){
@@ -14,9 +16,12 @@ export default function footer(){
             </p>
             
                 <h2 className="contact">Informações de Contacto </h2>
-                <p>+258 84 215 5085</p>
-                <p ><a id="Links" href="mailto:herminionino380@gmail.com">Email</a></p>
-                <p ><a id="Links" href="https://instagram.com/store_salesmz?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+                <div className='cont'>
+                <p><img className='whatsapp' src={sapp}/></p>
+                <p ><a id="Links" href="mailto:herminionino380@gmail.com"><img className='email' src={email} alt="" srcset="" /></a></p>
+                <p ><a id="Links" href="https://instagram.com/store_salesmz?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"><img className='insta' src={insta} /></a></p>
+                </div>
+                
             
                 <h3>
                 <p>(Copyright) <h1><p className='sales'>Sales</p><p className='mz'>Mz</p></h1> - Todos os direitos reservados.</p>

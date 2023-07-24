@@ -41,12 +41,49 @@ export default function Tecno(){
           }
         ]
     };
+    var settings2 = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      initialSlide: 0,
+      autoplay:true,
+      speed:2000,
+      
+      
+      responsive: [
+        {
+          breakpoint: 2024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+  };
 
     return(
         <div className='Tecno'>
             <h2>POP</h2>
         <section className='POP'>
-  <Slider {...settings}>
+  <Slider {...settings2}>
     <div id="card" className='POP7'>
       <h1>POP 7</h1>
       <ul id='espec' type="none">
@@ -117,6 +154,7 @@ export default function Tecno(){
   </Slider>
 </section>
 
+<h2>Camon</h2>
 <section className='Camon'>
   <Slider {...settings}>
     <div id="card" className='Camon15'>
@@ -143,7 +181,7 @@ export default function Tecno(){
       </ul>
     </div>
 
-    <div id="card" className='Camon 20'>
+    <div id="card" className='Camon20'>
       <h1>Camon 20</h1>
       <ul id='espec' type="none">
         <li>Câmera: 64MP</li>
@@ -156,7 +194,7 @@ export default function Tecno(){
     </div>
 
     <div id="card" className='Camon20P'>
-      <h1>Camon 20 pro b</h1>
+      <h1>Camon 20 Pro</h1>
       <ul id='espec' type="none">
         <li>Câmera: 64MP</li>
         <li>Bateria: 5.000 mAh</li>

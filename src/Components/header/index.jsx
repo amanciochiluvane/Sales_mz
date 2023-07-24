@@ -26,7 +26,9 @@ function Header(){
     <div className="header">
         <h1><p className='sales'>Sales</p><p className='mz'>Mz</p></h1>
         <p className={menu?vi:inv} onClick={mudartool}><img  src={menuBarImage} alt="photologo"/></p>
+
         <div className={menu?visible:nonvisble}>
+        <p className='close' onClick={mudartool}>X</p>
         <p><Link className='Link' to ="/Sales_mz">Home</Link></p>
         <p onClick={scrollToBottom}>About us</p>
         <p>Promotions</p>
