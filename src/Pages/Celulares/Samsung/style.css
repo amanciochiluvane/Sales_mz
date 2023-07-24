@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+
+.Samsung>h2{
+    width: max-content;
+    color: #b58339;
+
+}
+#card>h1{
+    text-align: left;
+    margin-top: 350px;
+    color: white;
+    }
+section{
+    height: 600px;
+}
+#espec{
+    margin-top: 10px;
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Price{
+    margin-top: 5px;
+    color:#b58339;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    font-size: larger;
+
+}
+.Comprar{
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    margin: auto;
+    background-color: white;
+    width: max-content;
+    margin-top: 25px;
+    background-color: #BD8E48;
+    border-radius: 10px;    
+    
+}
+.Comprar:hover{
+    color: #b58339;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 20px;
+}
+.A04E{
+    background-image: url(../../../Assets/mobile/A04E.jpg);
+    background-size: cover;
+}
+
+.A04{
+    background-image: url(../../../Assets/mobile/A04.jpg);
+    background-size: cover;
+}
+.A04S{
+    background-image: url(../../../Assets/mobile/A04S.jpg);
+    background-size: cover;
+}
+.A14{
+    background-image: url(../../../Assets/mobile/A14.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+.A22{
+    background-image: url(../../../Assets/mobile/A22.jpg);
+    background-size: cover;
+}
+.A23{
+    background-image: url(../../../Assets/mobile/A23.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+.A24{
+    background-image: url(../../../Assets/mobile/A24.jpg);
+    background-size: cover;
+    background-position: 45%;
+    
+}
+.A34{
+    background-image: url(../../../Assets/mobile/A34.jpg);
+    background-size: cover;
+    background-position: 45%;
+    
+}
+
+.A54{
+    background-image: url(../../../Assets/mobile/A54.jpg);
+    background-size: cover;
+    background-position: 45%;
+    
+}
+.A73{
+    background-image: url(../../../Assets/mobile/A73.jpg);
+    background-size: cover;
+    background-position: 45%;
+    
+}
+.F04{
+    background-image: url(../../../Assets/mobile/F04.jpg);
+    background-size: cover;
+    background-position: 25%; 
+}
+.F13{
+    background-image: url(../../../Assets/mobile/F13.jpg);
+    background-size: cover;
+}
+.M04{
+    background-image: url(../../../Assets/mobile/M04.jpg);
+    background-size: cover; 
+    background-position: 45%;
+}
+.M33{
+    background-image: url(../../../Assets/mobile/M33.jpg);
+    background-size: cover; 
+    background-position: 25%;
+}
+.S20Fe{
+    background-image: url(../../../Assets/mobile/S20Fe.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+.S21Fe{
+    background-image: url(../../../Assets/mobile/S21Fe.jpg);
+    background-size: cover;
+}
+
+.S22P{
+    background-image: url(../../../Assets/mobile/S22Plus.jpg);
+    background-size: cover;
+}
+.S22U{
+    background-image: url(../../../Assets/mobile/S23Ultra.jpg);
+    background-size: cover;
+}
+.S23{
+    background-image: url(../../../Assets/mobile/S23.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+.S23P{
+    background-image: url(../../../Assets/mobile/S23Plus.jpg);
+    background-size: cover;
+   
+}
+.S23U{
+    background-image: url(../../../Assets/mobile/S23Ultra.jpg);
+    background-size: cover;
+}
+.FP4{
+    background-image: url(../../../Assets/mobile/ZF4.jpg);
+    background-size: cover; 
+    background-position: 20%;
+}
+.FL4{
+    background-image: url(../../../Assets/mobile/ZFL4.jpg);
+    background-size: cover; 
+}
+
+@media (min-width:481px) {
+    #card>h1{
+        text-align: left;
+        margin-top: 450px;
+        color: white;
+        }
+    section{
+        height: 700px;
+    }
+}
+
+@media (min-width:769px) {
+    section{
+        height: 800px;
+    }
+}

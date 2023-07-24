@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import {Link} from 'react-router-dom'
 
 function main(){
     var settings = {
@@ -50,8 +51,9 @@ function main(){
             </div>
             <section className="Scroll">
                 <Slider{...settings}>
-                <div id="card" className='Cel'>
-                </div>
+               
+                  <Link to="/Sales_mz/marcascell"> <div id="card" className='Cel'></div></Link>
+
                 
                 <div id="card" className='TB'>
                 </div>

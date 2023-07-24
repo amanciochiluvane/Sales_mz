@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+.MarcasCell{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-image: url(../../Assets/teste/cell.jpg);
+    background-size: cover;
+    margin-bottom: -30px;
+}
+.MarcasCell>h1{
+    padding: 20px;
+    color:#b58339;
+    background-color:black ;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+}
+.Choice{
+    background-color: rgba(0, 0, 0, 0.894);
+    height: 320px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+#MC{
+    padding: 10px;
+    color: white;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: large;
+}
+#MC:hover{
+    background-color: gray;
+}
+
+@media (min-width:481px){
+    .MarcasCell>h1{
+      width: 300px;
+      font-size: 40px;
+    }
+    .Choice{
+        width: 400px;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    #MC{
+        font-size: larger;
+    }
+}
