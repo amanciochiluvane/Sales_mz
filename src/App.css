@@ -21,22 +21,23 @@
 }
 .non{
   color: white;
-  margin-top: 40px;
+  margin-top: 0px;
   padding: 10px;
-  background-color: black;
+  background-color: #49310d;
   border-radius:7px ;
-  height: 100vh;
-  width: 180px;
+  height: 40vh;
+  width: 150px;
   text-align: center;
 }
 .non>p{
-  margin-top: 50px;
+  margin-bottom: 30px;
   font-size: larger;
 }
 .close{
   text-align: right;
   margin-right: 20px;
   font-size: x-large;
+  
 }
 .non>p:hover{
 color: #b58339;
