@@ -61,11 +61,12 @@ function main(){
                 <div id="card" className='TV'>
                 </div>
 
-                <div id="card" className='JBL'>
-                </div>
-
-                <div id="card" className='RL'>
-                </div>
+                <Link to="/Sales_mz/JBL"><div id="card" className='JBL'>
+                </div></Link>
+                
+                <Link to="/Sales_mz/Watch"><div id="card" className='RL'>
+                </div></Link>
+                
 
                 <div id="card" className='LAP'>
                 </div>

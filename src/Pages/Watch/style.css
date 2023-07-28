@@ -1,0 +1,44 @@
+.Watch_3{
+background-image: url(../../Assets/JBL/Watch_3.jpg);
+background-size: cover;
+}
+.Watch_4{
+    background-image: url(../../Assets/JBL/Watch_4.jpg);
+    background-size: cover;
+}
+.Watch_4_Classic{
+    background-image: url(../../Assets/JBL/Watch_4_Classic.jpg);
+    background-size: cover;
+}
+.Watch_4_Classic_46mm{
+    background-image: url(../../Assets/JBL/Watch_4_Classic_46mm.jpg);
+    background-size: cover;
+}
+.Watch_5{
+    background-image: url(../../Assets/JBL/Watch_5.jpg);
+    background-size: cover;
+}
+.Watch_5_44mm{
+    background-image: url(../../Assets/JBL/Watch_5_44mm.jpg);
+    background-size: cover;
+}
+.Watch_5_Pro{
+    background-image: url(../../Assets/JBL/Watch_5_Pro.jpg);
+    background-size: cover;
+}
+.Watch>section{
+    height: 500px;
+  }
+
+@media (min-width:481px) {
+    .Watch>section{
+      height: 650px;
+    }
+  }
+
+  @media (min-width:769px) {
+    .Watch>section{
+      height: 930px;
+    }
+    
+  }

@@ -1,0 +1,157 @@
+  .JBL2{
+    background-image: none;
+  }
+  .JBL2>section{
+    height: 500px;
+  }
+  /* Styles for Handfree */
+  .T110{
+    background-image: url(../../Assets/JBL/T110.jpg);
+    background-size: cover;
+  }
+  .T205{
+    background-image: url(../../Assets/JBL/T205.jpg);
+    background-size: cover;
+  }
+  .A215{
+    background-image: url(../../Assets/JBL/A215.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_115_BT{
+    background-image: url(../../Assets/JBL/JBL_TUNE_115_BT.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_175_BT{
+    background-image: url(../../Assets/JBL/JBL_TUNE_175_BT.jpg);
+    background-size: cover;
+  }
+  .TUNE_125_BT{
+    background-image: url(../../Assets/JBL/TUNE_125_BT.jpg);
+    background-size: cover;
+  }
+  .TUNE_T205_BT_BLUETOOTH {
+    background-image: url(../../Assets/JBL/TUNE_T205_BT_BLUETOOTH.jpg);
+    background-size: cover;
+  }
+
+  /* Styles for Airpod */
+  .JBL_TUNE_215_TWS_AIRPOD{
+    background-image: url(../../Assets/JBL/JBL_TUNE_215_TWS_AIRPOD.jpg);
+    background-size: cover;
+  }
+  .JBL_VIBE_200_TWS_AIRPOD{
+    background-image: url(../../Assets/JBL/JBL_VIBE_200_TWS_AIRPOD.jpg);
+    background-size: cover;
+  }
+  .JBL_WAVE_300_TWS{
+    background-image: url(../../Assets/JBL/JBL_WAVE_300_TWS.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_115_TWS_AIRPOD{
+    background-image: url(../../Assets/JBL/JBL_TUNE_115_TWS_AIRPOD.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_130NC_AIRPOD{
+    background-image: url(../../Assets/JBL/JBL_TUNE_130NC_AIRPOD.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_FLEX_TWS_AIRPOD {
+    background-image: url(../../Assets/JBL/JBL_TUNE_FLEX_TWS_AIRPOD.jpg);
+    background-size: cover;
+  }
+
+
+
+  /* Styles for Column Bluetooth */
+  .JBL_GO_3{
+    background-image: url(../../Assets/JBL/JBL_GO_3.jpg);
+    background-size: cover;
+  }
+  .JBL_CLIP_4{
+    background-image: url(../../Assets/JBL/JBL_CLIP_4.jpg);
+    background-size: cover;
+  }
+  .JBL_FLIP_6{
+    background-image: url(../../Assets/JBL/JBL_FLIP_6.jpg);
+    background-size: cover;
+  }
+  .JBL_CHARGE_4{
+    background-image: url(../../Assets/JBL/JBL_CHARGE_4.jpg);
+    background-size: cover;
+  }
+  .JBL_XTREME_2{
+    background-image: url(../../Assets/JBL/JBL_XTREME_2.jpg);
+    background-size: cover;
+  }
+  .JBL_XTREME_3{
+    background-image: url(../../Assets/JBL/JBL_XTREME_3.jpg);
+    background-size: cover;
+  }
+  .JBL_BOOM_BOX_2{
+    background-image: url(../../Assets/JBL/JBL_BOOM_BOX_2.jpg);
+    background-size: cover;
+  }
+  .JBL_BOOM_BOX_3 {
+    background-image: url(../../Assets/JBL/JBL_BOOM_BOX_3.jpg);
+    background-size: cover;
+  }
+
+  /* Styles for Party Box */
+  .Party_Box_One_the_Go_com_micro{
+    background-image: url(../../Assets/JBL/Party_Box_One_the_Go_com_micro.jpg);
+    background-size: cover;
+  }
+  .Party_Box_110{
+    background-image: url(../../Assets/JBL/Party_Box_110.jpg);
+    background-size: cover;
+  }
+  .Party_Box_310{
+    background-image: url(../../Assets/JBL/Party_Box_310.jpg);
+    background-size: cover;
+  }
+  .Party_Box_710 {
+    background-image: url(../../Assets/JBL/Party_Box_710.jpg);
+    background-size: cover;
+  }
+   /*Styles for Headphones*/
+
+  .JBL_JR_310_BT_KIDS{
+    background-image: url(../../Assets/JBL/JBL_JR_310_BT_KIDS.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_500_BT{
+    background-image: url(../../Assets/JBL/JBL_TUNE_500_BT.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_570{
+    background-image: url(../../Assets/JBL/JBL_TUNE_570.jpg);
+    background-size: cover;
+  }
+  .JBL_LIVE_660BT{
+    background-image: url(../../Assets/JBL/JBL_LIVE_660BT.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_710_BT{
+    background-image: url(../../Assets/JBL/JBL_TUNE_710_BT.jpg);
+    background-size: cover;
+  }
+  .JBL_TUNE_760_BT{
+    background-image: url(../../Assets/JBL/JBL_TUNE_760_BT.jpg);
+    background-size: cover;
+  }
+ 
+  @media (min-width:481px) {
+    .JBL2>section{
+      height: 650px;
+    }
+  }
+
+  @media (min-width:769px) {
+    .JBL2>section{
+      height: 930px;
+    }
+    .JBL_TUNE_500_BT{
+      background-position: 50%;
+    }
+  }
+  

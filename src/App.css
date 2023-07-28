@@ -383,4 +383,10 @@ section>div{
   
   }
 }
+
+@media (min-width:2024px) {
+ #card{
+  width: 400px;
+ }
+}
 }
