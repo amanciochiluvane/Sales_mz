@@ -34,6 +34,9 @@
 #MC:hover{
     background-color: gray;
 }
+a{
+    text-decoration: none;
+}
 
 @media (min-width:481px){
     .MarcasCell>h1{

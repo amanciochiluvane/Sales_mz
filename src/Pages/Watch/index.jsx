@@ -51,7 +51,7 @@ export default function Watch(){
     <h1>Watch 3 41mm Sm-R850</h1>
     <ul id="espec" type="none">
       <li><p class="Price">15.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -60,7 +60,7 @@ export default function Watch(){
     <h1>Watch 4 40Mm Sm-R860</h1>
     <ul id="espec" type="none">
       <li><p class="Price">13.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -69,7 +69,7 @@ export default function Watch(){
     <h1>Watch 4 Classic 42mm Sm-R880</h1>
     <ul id="espec" type="none">
       <li><p class="Price">17.500,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -78,7 +78,7 @@ export default function Watch(){
     <h1>Watch 4 Classic 46mm Sm-R890</h1>
     <ul id="espec" type="none">
       <li><p class="Price">17.800,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -87,7 +87,7 @@ export default function Watch(){
     <h1>Watch 5 40Mm Sm-R900</h1>
     <ul id="espec" type="none">
       <li><p class="Price">16.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -96,7 +96,7 @@ export default function Watch(){
     <h1>Watch 5 44mm Sm-R910</h1>
     <ul id="espec" type="none">
       <li><p class="Price">20.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
 
@@ -105,7 +105,7 @@ export default function Watch(){
     <h1>Watch 5 Pro 45mm Sm-R920</h1>
     <ul id="espec" type="none">
       <li><p class="Price">27.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+      <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
   </div>
   </Slider>

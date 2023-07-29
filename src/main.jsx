@@ -10,6 +10,8 @@ import Tablets from './Pages/Tablets/Index.jsx'
 import JBL from './Pages/JBL/index.jsx'
 import Watch from './Pages/Watch/index.jsx'
 import AC from './Pages/AC/index.jsx'
+import Apple from './Pages/Celulares/Apple/index.jsx'
+import Promotions from './Pages/Promotions/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -47,6 +49,15 @@ const router = createBrowserRouter([
           {
             path:"/Sales_mz/AC",
             element:<AC/>
+          },
+          {
+            path:"/Sales_mz/marcascell/apple",
+            element:<Apple/>
+
+          },
+          {
+            path:"/Sales_mz/Promotions",
+            element:<Promotions/>
           }
        
     

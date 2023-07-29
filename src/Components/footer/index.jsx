@@ -17,7 +17,7 @@ export default function footer(){
             
                 <h2 className="contact">Informações de Contacto </h2>
                 <div className='cont'>
-                <p><img className='whatsapp' src={sapp}/></p>
+                <p><a href="https://wa.me/+258877109499"><img className='whatsapp' src={sapp}/></a></p>
                 <p ><a id="Links" href="mailto:herminionino380@gmail.com"><img className='email' src={email} alt="" srcset="" /></a></p>
                 <p ><a id="Links" href="https://instagram.com/store_salesmz?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"><img className='insta' src={insta} /></a></p>
                 </div>

@@ -92,7 +92,7 @@ export default function Tecno(){
         <li>Espaço: 64 GB</li> 
         <li>RAM: 2GB</li> 
         <li><p className='Price'>7.500 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -105,7 +105,7 @@ export default function Tecno(){
         <li>Espaço: 64 GB</li> 
         <li>RAM: 3GB</li> 
         <li><p className='Price'>8.200,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
   </Slider>
@@ -122,7 +122,7 @@ export default function Tecno(){
         <li>Espaço: 128 GB</li> 
         <li>RAM: 8GB</li> 
         <li><p className='Price'>10.500,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -134,7 +134,7 @@ export default function Tecno(){
         <li>Espaço: 128 GB</li> 
         <li>RAM: 4GB</li> 
         <li><p className='Price'>9.700,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -147,7 +147,7 @@ export default function Tecno(){
         <li>Espaço: 128 GB</li> 
         <li>RAM: 6GB</li> 
         <li><p className='Price'>12.200,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -165,7 +165,7 @@ export default function Tecno(){
         <li>Espaço: 64 GB</li> 
         <li>RAM: 4GB</li> 
         <li><p className='Price'>13.000,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -177,7 +177,7 @@ export default function Tecno(){
         <li>Espaço: 256 GB</li> 
         <li>RAM: 8GB</li> 
         <li><p className='Price'>22.300,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -189,7 +189,7 @@ export default function Tecno(){
         <li>Espaço: 256 GB</li> 
         <li>RAM: 8GB</li> 
         <li><p className='Price'>15.200,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -201,7 +201,7 @@ export default function Tecno(){
         <li>Espaço: 256 GB</li> 
         <li>RAM: 8GB</li> 
         <li><p className='Price'>17.500,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
 
@@ -213,7 +213,7 @@ export default function Tecno(){
         <li>Espaço: 512 GB</li> 
         <li>RAM: 8GB</li> 
         <li><p className='Price'>28.800,00 MT</p></li>
-        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
       </ul>
     </div>
   </Slider>

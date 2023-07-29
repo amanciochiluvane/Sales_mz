@@ -1,0 +1,15 @@
+.Simple{
+    background-image: url(../../../Assets/mobile/14.jpg);
+    background-size: cover;
+}
+.Pro{
+    background-image: url(../../../Assets/mobile/14p.jpg);
+    background-size: cover;
+}
+.ProM{
+    background-image: url(../../../Assets/mobile/14pm.jpg);
+    background-size: cover;
+}
+.Apple>section{
+    height: 800px;
+}

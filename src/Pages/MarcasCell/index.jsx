@@ -9,7 +9,8 @@ export default function MarcasCell(){
         <div className="Choice">
             <Link to = "/Sales_mz/marcascell/samsung"> <p id='MC'>Samsung</p></Link>
             <Link to="/Sales_mz/marcascell/tecno"><p id='MC' >Tecno</p></Link>
-            <p id='MC'>Apple</p>
+            <Link to="/Sales_mz/marcascell/apple" ><p id='MC'>Apple</p></Link>
+            
         </div>
         </div>
     )

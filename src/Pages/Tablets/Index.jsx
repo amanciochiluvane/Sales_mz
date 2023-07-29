@@ -54,7 +54,7 @@ export default function Tablets(){
                         <li>Espaço: 32 GB</li> 
                         <li>RAM: 2GB</li> 
                         <li><p className='Price'>12.000 MT</p></li>
-                        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+                        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
                      </ul>
                     </div>
 
@@ -66,7 +66,7 @@ export default function Tablets(){
                         <li>Espaço: 32 GB</li> 
                         <li>RAM: 3GB</li> 
                         <li><p className='Price'>18.500 MT</p></li>
-                        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+                        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
                      </ul>
                     </div> 
 
@@ -78,7 +78,7 @@ export default function Tablets(){
                         <li>Espaço: 32 GB</li> 
                         <li>RAM: 3GB</li> 
                         <li><p className='Price'>18.500 MT</p></li>
-                        <li><p className="Comprar" ><a href="">Compre</a></p></li>
+                        <li><p className="Comprar" ><a href="https://wa.me/+258877109499">Compre</a></p></li>
                      </ul>
                     </div>      
             </Slider>

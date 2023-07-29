@@ -31,7 +31,7 @@ function Header(){
         <p className='close' onClick={mudartool}>X</p>
         <p><Link className='Link' to ="/Sales_mz">Home</Link></p>
         <p onClick={scrollToBottom}>About us</p>
-        <p>Promotions</p>
+        <p><Link className='Link' to="/Sales_mz/Promotions">Promotions</Link></p>
         </div>
     </div>
     )

@@ -52,7 +52,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>12000Btu</li>
         <li><p class="Price">26.000,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 
@@ -63,7 +63,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>9000BTU</li>
         <li><p class="Price">24.500,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 
@@ -73,7 +73,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>24000BTU</li>
         <li><p class="Price">43.000,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 
@@ -82,7 +82,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>9000 btu</li>
         <li><p class="Price">22.500,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 
@@ -91,7 +91,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>9000btu</li>
         <li><p class="Price">20.000,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 
@@ -100,7 +100,7 @@ export default function AC(){
     <ul id="espec" type="none">
         <li>9000btu</li>
         <li><p class="Price">20.500,00 MT</p></li>
-        <li><p class="Comprar"><a href="">Compre</a></p></li>
+        <li><p class="Comprar"><a href="https://wa.me/+258877109499">Compre</a></p></li>
     </ul>
 </div>
 

@@ -1,0 +1,16 @@
+.A04E{
+    background-image: url(../../Assets/mobile/A04E.jpg);
+    background-size: cover;
+}
+.A14{
+    background-image: url(../../Assets/mobile/A14.jpg);
+    background-size: cover;
+    background-position: 45%;
+}
+.Watch_4{
+    background-image: url(../../Assets/JBL/Watch_4.jpg);
+    background-size: cover;
+}
+.Promotions>section{
+    height: 820px;
+}
