@@ -1,0 +1,35 @@
+.Hisense  {
+    background-image: url(../../Assets/AC/Hisense.jpg);
+    background-size: cover;
+  }
+  
+  .AC_GREE_R410  {
+    background-image: url(../../Assets/AC/AC_GREE_R410.jpg);
+    background-size: cover;
+  }
+  
+  
+  .AC_GREE_R22  {
+    background-image: url(../../Assets/AC/AC_GREE_R22.jpg);
+    background-size: cover;
+  }
+  
+  .AC_DEPOINT_R410  {
+    background-image: url(../../Assets/AC/AC_DEPOINT_R41.jpg);
+    background-size: cover;
+  }
+  
+  .Mozpoint  {
+    background-image: url(../../Assets/AC/Mozpoint.jpg);
+    background-size: cover;
+  }
+  
+  .Spj_ac_r410  {
+    background-image: url(../../Assets/AC/Spj_ac_r410.jpg);
+    background-size: cover;
+  }
+
+.AC>section{
+    height: 800px;
+}
+  

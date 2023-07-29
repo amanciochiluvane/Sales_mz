@@ -9,6 +9,7 @@ import Tecno from './Pages/Celulares/Tecno/index.jsx'
 import Tablets from './Pages/Tablets/Index.jsx'
 import JBL from './Pages/JBL/index.jsx'
 import Watch from './Pages/Watch/index.jsx'
+import AC from './Pages/AC/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
           {
             path:"/Sales_mz/Watch",
             element:<Watch/>
+          },
+          {
+            path:"/Sales_mz/AC",
+            element:<AC/>
           }
        
     

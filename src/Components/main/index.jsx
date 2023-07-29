@@ -65,9 +65,9 @@ function main(){
                 </div></Link>
                 
 
+                <Link to="/Sales_mz/AC"><div id="card" className='Ac'>
+                </div></Link>
                 
-                <div id="card" className='Ac'>
-                </div>
                 </Slider>
             </section>
         </div>

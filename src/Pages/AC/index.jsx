@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 
-export default function Watch(){
+export default function AC(){
     var settings = {
         dots: false,
         infinite: true,
@@ -47,19 +47,65 @@ export default function Watch(){
             <h2>AC</h2>
 <section class="Watch">
 <Slider {...settings}>
-  <div id="card" class="Watch_3">
-    <h1>Watch 3 41mm Sm-R850</h1>
+<div id="card" class="Hisense">
+    <h1>Hisense</h1>
     <ul id="espec" type="none">
-      <li><p class="Price">15.000,00 MT</p></li>
-      <li><p className="Comprar" ><a href="">Compre</a></p></li>
+        <li>12000Btu</li>
+        <li><p class="Price">26.000,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
     </ul>
-  </div>
+</div>
 
-  
+
+
+<div id="card" class="AC_GREE_R410">
+    <h1>AC GREE R410</h1>
+    <ul id="espec" type="none">
+        <li>9000BTU</li>
+        <li><p class="Price">24.500,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
+    </ul>
+</div>
+
+
+<div id="card" class="AC_GREE_R22">
+    <h1>AC GREE R22</h1>
+    <ul id="espec" type="none">
+        <li>24000BTU</li>
+        <li><p class="Price">43.000,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
+    </ul>
+</div>
+
+<div id="card" class="AC_DEPOINT_R410">
+    <h1>AC DEPOINT R410</h1>
+    <ul id="espec" type="none">
+        <li>9000 btu</li>
+        <li><p class="Price">22.500,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
+    </ul>
+</div>
+
+<div id="card" class="Mozpoint">
+    <h1>Mozpoint</h1>
+    <ul id="espec" type="none">
+        <li>9000btu</li>
+        <li><p class="Price">20.000,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
+    </ul>
+</div>
+
+<div id="card" class="Spj_ac_r410">
+    <h1>Spj ac r410</h1>
+    <ul id="espec" type="none">
+        <li>9000btu</li>
+        <li><p class="Price">20.500,00 MT</p></li>
+        <li><p class="Comprar"><a href="">Compre</a></p></li>
+    </ul>
+</div>
+
+
  
-  
-
-  
   </Slider>
 </section>
 
