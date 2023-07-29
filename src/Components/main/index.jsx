@@ -57,9 +57,6 @@ function main(){
                   <Link to ="/Sales_mz/tablets"><div id="card" className='TB'>
                 </div></Link>
                 
-                
-                <div id="card" className='TV'>
-                </div>
 
                 <Link to="/Sales_mz/JBL"><div id="card" className='JBL'>
                 </div></Link>
@@ -68,9 +65,7 @@ function main(){
                 </div></Link>
                 
 
-                <div id="card" className='LAP'>
-                </div>
-
+                
                 <div id="card" className='Ac'>
                 </div>
                 </Slider>
