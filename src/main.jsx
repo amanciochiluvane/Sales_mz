@@ -15,11 +15,11 @@ import Promotions from './Pages/Promotions/index.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/salesmz.vercel.app",
+    path:"/",
     element:<App/>,
     children:[
       {
-        path:"/salesmz.vercel.app",
+        path:"/",
         element:<Home/>,
        } ,
        {
