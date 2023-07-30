@@ -54,7 +54,7 @@ function main(){
                
                   <Link to="/marcascell"> <div id="card" className='Cel'></div></Link>
 
-                  <Link to ="tablets"><div id="card" className='TB'>
+                  <Link to ="/tablets"><div id="card" className='TB'>
                 </div></Link>
                 
 

@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element:<App/>,
     children:[
       {
-        path:"/",
+        path:"/Sales_mz",
         element:<Home/>,
        } ,
        {
