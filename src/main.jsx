@@ -15,11 +15,11 @@ import Promotions from './Pages/Promotions/index.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"./",
     element:<App/>,
     children:[
       {
-        path:"/",
+        path:"./",
         element:<Home/>,
        } ,
        {
