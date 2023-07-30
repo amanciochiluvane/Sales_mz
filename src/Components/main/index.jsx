@@ -52,20 +52,20 @@ function main(){
             <section className="Scroll">
                 <Slider{...settings}>
                
-                  <Link to="/Sales_mz/marcascell"> <div id="card" className='Cel'></div></Link>
+                  <Link to="/marcascell"> <div id="card" className='Cel'></div></Link>
 
-                  <Link to ="/Sales_mz/tablets"><div id="card" className='TB'>
+                  <Link to ="tablets"><div id="card" className='TB'>
                 </div></Link>
                 
 
-                <Link to="/Sales_mz/JBL"><div id="card" className='JBL'>
+                <Link to="/JBL"><div id="card" className='JBL'>
                 </div></Link>
                 
-                <Link to="/Sales_mz/Watch"><div id="card" className='RL'>
+                <Link to="/Watch"><div id="card" className='RL'>
                 </div></Link>
                 
 
-                <Link to="/Sales_mz/AC"><div id="card" className='Ac'>
+                <Link to="/AC"><div id="card" className='Ac'>
                 </div></Link>
                 
                 </Slider>

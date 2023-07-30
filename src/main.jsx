@@ -15,48 +15,48 @@ import Promotions from './Pages/Promotions/index.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/Sales_mz",
+    path:"/",
     element:<App/>,
     children:[
       {
-        path:"/Sales_mz",
+        path:"/",
         element:<Home/>,
        } ,
        {
-        path:"/Sales_mz/marcascell",
+        path:"/marcascell",
         element:<MarcasCell/>
        },
           {
-            path:"/Sales_mz/marcascell/samsung",
+            path:"/marcascell/samsung",
             element:<Samsung/>
           },
           {
-            path:"/Sales_mz/marcascell/tecno",
+            path:"/marcascell/tecno",
             element:<Tecno/>
           },
           {
-            path:"/Sales_mz/tablets",
+            path:"/tablets",
             element:<Tablets/>
           },
           {
-            path:"/Sales_mz/JBL",
+            path:"/JBL",
             element:<JBL/>
           },
           {
-            path:"/Sales_mz/Watch",
+            path:"/Watch",
             element:<Watch/>
           },
           {
-            path:"/Sales_mz/AC",
+            path:"/AC",
             element:<AC/>
           },
           {
-            path:"/Sales_mz/marcascell/apple",
+            path:"/marcascell/apple",
             element:<Apple/>
 
           },
           {
-            path:"/Sales_mz/Promotions",
+            path:"/Promotions",
             element:<Promotions/>
           }
        
