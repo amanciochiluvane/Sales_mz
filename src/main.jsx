@@ -15,7 +15,7 @@ import Promotions from './Pages/Promotions/index.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/Sales_mz",
+    path:"/salesmz.vercel.app",
     element:<App/>,
     children:[
       {
