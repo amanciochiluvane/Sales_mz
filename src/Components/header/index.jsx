@@ -29,7 +29,7 @@ function Header(){
 
         <div className={menu?visible:nonvisble}>
         <p className='close' onClick={mudartool}>X</p>
-        <p><Link className='Link' to ="/Sales_mz">Home</Link></p>
+        <p><Link className='Link' to ="/">Home</Link></p>
         <p onClick={scrollToBottom}>About us</p>
         <p><Link className='Link' to="/Promotions">Promotions</Link></p>
         </div>

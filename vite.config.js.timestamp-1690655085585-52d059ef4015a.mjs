@@ -3,7 +3,7 @@ import { defineConfig } from "file:///F:/Projects/Learning%20React/salesmz/node_
 import react from "file:///F:/Projects/Learning%20React/salesmz/node_modules/@vitejs/plugin-react/dist/index.mjs";
 var vite_config_default = defineConfig({
   plugins: [react()],
-  base: "/Sales_mz"
+  base: "./"
 });
 export {
   vite_config_default as default
