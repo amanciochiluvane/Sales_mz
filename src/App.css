@@ -23,14 +23,15 @@
   color: white;
   margin-top: 0px;
   padding: 10px;
-  background-color: #49310d;
-  border-radius:7px ;
-  height: 40vh;
-  width: 150px;
+  background-color: #0b0a0a;
+  border-radius:17px ;
+  height: 70vh;
+  width: 250px;
   text-align: center;
+  transform: translate(-30%,10%);  
 }
 .non>p{
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   font-size: larger;
 }
 .close{
